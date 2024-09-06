@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  backend:
+    build: ./backend              # Build the image from the Dockerfile in the backend directory
+    ports:
+      - "8545:8545"               # Expose the Hardhat node port
+    volumes:
+      - ./backend:/app            # Link the local backend directory with /app inside the container
+    networks:
+      - dapp-network
+
+networks:
+  dapp-network:
+    driver: bridge
