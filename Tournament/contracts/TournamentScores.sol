@@ -14,20 +14,8 @@ contract TournamentScores {
     mapping(uint => Score[]) public tournamentScores;
 
     // Function to store a score for a specific tournament
-    function storeScore(
-        uint _tournamentId, 
-        uint _winnerId, 
-        uint _winnerIdScore, 
-        uint _loserId, 
-        uint _loserIdScore
-    ) public {
-        tournamentScores[_tournamentId].push(Score(
-            _tournamentId, 
-            _winnerId, 
-            _winnerIdScore, 
-            _loserId, 
-            _loserIdScore
-        ));
+    function storeScore(uint _tournamentId, uint _winnerId, uint _winnerIdScore, uint _loserId, uint _loserIdScore) public {
+        tournamentScores[_tournamentId].push(Score(_tournamentId, _winnerId, _winnerIdScore, _loserId, _loserIdScore));
     }
 
     // Function to get scores for a specific tournament

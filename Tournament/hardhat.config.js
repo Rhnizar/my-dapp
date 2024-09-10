@@ -2,9 +2,10 @@
 require("@nomiclabs/hardhat-ethers"); // Add this line to require the Ethers plugin
 module.exports = {
   solidity: "0.8.24",
-  networks: {
-    hardhat: {
-      chainId: 1337, // Optional: Specify chain ID if needed
-    }
-  }
+  // networks: {
+  //   sepolia: {
+  //     url: process.env.SEPOLIA_URL, // RPC URL from Infura, Alchemy, etc.
+  //     accounts: [`0x${process.env.PRIVATE_KEY}`] // Your wallet private key
+  //   }
+  // }
 };
