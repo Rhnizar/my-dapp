@@ -1,0 +1,27 @@
+npm install --save-dev hardhat  ===>  Install Hardhat
+
+npx hardhat ===>  Initialize a New Hardhat Project
+
+npx hardhat compile ===> Compile My Contract ==> make a artifacts directory is used to store the compiled output of your Solidity contracts
+
+
+npx hardhat run scripts/deploy.js --network hardhat ===> Deploy the Contract
+
+npx hardhat test ===> Test the Contract
+
+
+
+npm install --save-dev hardhat @nomiclabs/hardhat-ethers ethers ===>  install hardhat and ethers
+
+npx hardhat clean ===>   Delete the artifacts directory
+
+
+npx hardhat node ===>  ??? 
+
+npx hardhat console --network hardhat ===> ???
+
+
+
+
+==================== informations ===========================
+Ethereum block times generally range from around 10 to 20 seconds.
