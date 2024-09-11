@@ -18,7 +18,7 @@ describe("TournamentScores", function () {
   it("Should store a score correctly", async function () {
     // Store a score
     const tournamentId = 1;
-    const winnerId = 101;
+    const winnerId = 100;
     const winnerScore = 50;
     const loserId = 102;
     const loserScore = 30;
