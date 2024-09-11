@@ -2,7 +2,7 @@ const { ethers } = require("hardhat");
 
 async function main() {
   // Get the genesis block (block number 0)
-  const genesisBlock = await ethers.provider.getBlock(2);
+  const genesisBlock = await ethers.provider.getBlock(1);
   console.log("Genesis Block:", genesisBlock);
 }
 
