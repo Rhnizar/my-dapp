@@ -1,8 +1,8 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
-    "/Users/rrhnizar/Desktop/my-dapp/Tournament/contracts/TournamentScores.sol": {
-      "lastModificationDate": 1726054720000,
+    "/Users/rrhnizar/Desktop/TestHardhat/Tournament/contracts/TournamentScores.sol": {
+      "lastModificationDate": 1726423186000,
       "contentHash": "da7d871dc363fb9366cee62eb4be95f3",
       "sourceName": "contracts/TournamentScores.sol",
       "solcConfig": {
